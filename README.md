@@ -16,3 +16,16 @@ React Components can add styling in the following ways:
 <li>Create a Style for Each Individual Component</li>
 <li>Adding Inline Style to React Component Elements</li>
 <li>Attach style property to JavaScript Style Object</li></ul>
+
+
+**Different Ways to Fetch Data in ReactJS**
+
+<ul>
+  <li>Fetch method</li>
+<li>Async-Await</li>
+<li>Axios library</li>
+<li>Custom Hook</li>
+  <li>React Query Library</li>
+</ul>
+	
+	
