@@ -27,5 +27,15 @@ React Components can add styling in the following ways:
 <li>Custom Hook</li>
   <li>React Query Library</li>
 </ul>
-	
-	
+
+**What are pure functions in react?**
+
+A pure function is a function that consistently produces the same output for a given set of inputs and doesn't have any side effects, such as modifying external state or performing actions beyond computing the output which brings some advantages like 👇
+
+<ul>
+<li>Predictable output</li>
+<li>Easy to reason about and refactor code</li>
+<li>Easy to test</li>
+<li>Helping in performance optimization</li>
+  </ul>
+
