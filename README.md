@@ -39,3 +39,18 @@ A pure function is a function that consistently produces the same output for a g
 <li>Helping in performance optimization</li>
   </ul>
 
+**Keys in reactjs**
+
+A key is a unique identifier and it is used to identify which items have changed, are added, or are removed.
+
+Why we shouldn't use an index as a key to the React component.
+
+<ul>
+<li> When components are using an index as a key, React distinguishes between them based on their key.</li>
+<li> Let's say, we delete the first element at the index 0 position, the other elements will be re-indexed from 0,1,2,3.</li>
+<li>In this case, Each component has a different index as compared to the last render.</li>
+<li>React thinks that these all are new updated components, hence it will render all those comments.</li>
+  <li>So you got the idea that it is not efficient for performance.</li>
+</ul>
+
+
