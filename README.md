@@ -53,4 +53,30 @@ Why we shouldn't use an index as a key to the React component.
   <li>So you got the idea that it is not efficient for performance.</li>
 </ul>
 
+**React Performance Optimization Tips**
 
+<ul>
+<li>Use React Fragment to decrease the usage of extra HTML wrappers</li>
+<li>Apply the lazy Loading concept</li>
+  <li>Memoizing react component using React.memo()</li>
+  <li>Avoid inline functions in render function</li>
+  <li>Avoid using the index as a key</li>
+  <li>use useCallback hook</li>
+  <li>Production Mode Flag in webpack</li>
+</ul>
+
+**React Hooks**
+
+**useState:** Manage your component's state with ease. Get the current state and a function to update it.
+
+**useEffect:** Master side effects like data fetching and DOM manipulation. It runs after rendering, ensuring seamless interaction.
+
+**useContext:** Simplify context data access, eliminating prop drilling and keeping your code clean.
+
+**useReducer**: Tackle complex state logic effortlessly. Think of it as a supercharged useState.
+
+**useCallback:** Supercharge your functions. Optimize performance by memorizing functions and controlling their re-creation.
+
+**useMemo:** Optimize expensive computations. Calculate results only when dependencies change.
+
+**useRef**: Unleash DOM magic. Create a ref object for persistent values without re-renders.
