@@ -80,3 +80,34 @@ Why we shouldn't use an index as a key to the React component.
 **useMemo:** Optimize expensive computations. Calculate results only when dependencies change.
 
 **useRef**: Unleash DOM magic. Create a ref object for persistent values without re-renders.
+
+
+**Higher order component**
+
+A higher-order component is a function that takes a component as an argument and returns a new component that wraps the original component.
+They allow you to reuse component logic across multiple components.
+
+Example: Authentication, Logging, Styling and Theming
+
+**Child props**
+
+In React, the props.children property refers to the child elements that are passed to a React component.
+
+For example, in the following code:
+
+`<MyComponent>`
+
+ ` <div>Child 1</div>`
+ 
+  `<div>Child 2</div>`
+  
+`</MyComponent>`
+
+**How to handle errors in reactjs?**
+
+<ul>
+<li>Try and Catch</li>
+<li>React Error Boundaries</li>
+</ul>
+
+
