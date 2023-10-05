@@ -117,3 +117,7 @@ In the parent component, create a callback function. This callback function will
 Pass the callback function to the child as a props from the parent component.
 
 The child component calls the parent callback function using props and passes the data to the parent component.
+
+**Why functional components are better than Class components?**
+
+In a class component, there are three steps to compile the JavaScript: First, you transform the class into a function, then you render it. However, in a functional component, there are only two steps: function definition and rendering. This eliminates the need for transforming a class into a function.
