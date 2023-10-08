@@ -121,3 +121,10 @@ The child component calls the parent callback function using props and passes th
 **Why functional components are better than Class components?**
 
 In a class component, there are three steps to compile the JavaScript: First, you transform the class into a function, then you render it. However, in a functional component, there are only two steps: function definition and rendering. This eliminates the need for transforming a class into a function.
+
+**Prop drilling**
+
+Prop drilling occurs when a parent component passes data down to its children and then those children pass the same data down to their own children.
+
+
+Prop drilling can become a significant pain point as your React application grows in complexity. By using the Context API and Hooks, you can avoid prop drilling and create a more maintainable and flexible application. With these tools, you can efficiently manage state and ensure a cleaner, more readable codebase.
