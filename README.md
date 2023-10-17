@@ -127,4 +127,8 @@ In a class component, there are three steps to compile the JavaScript: First, yo
 Prop drilling occurs when a parent component passes data down to its children and then those children pass the same data down to their own children.
 
 
-Prop drilling can become a significant pain point as your React application grows in complexity. By using the Context API and Hooks, you can avoid prop drilling and create a more maintainable and flexible application. With these tools, you can efficiently manage state and ensure a cleaner, more readable codebase.
+Prop drilling can become a significant pain point as your React application grows in complexity. By using the Context API and Hooks, you can avoid prop drilling and create a more maintainable and flexible application. With these tools, you can efficiently manage the state and ensure a cleaner, more readable codebase.
+
+**Why you can't update props in React?**
+
+The React philosophy is that props should be immutable and top-down. This means that a parent can send any prop values to a child, but the child can't modify the received props.
