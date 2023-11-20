@@ -132,3 +132,11 @@ Prop drilling can become a significant pain point as your React application grow
 **Why you can't update props in React?**
 
 The React philosophy is that props should be immutable and top-down. This means that a parent can send any prop values to a child, but the child can't modify the received props.
+
+**Destructuring in React**
+
+In the JavaScript and React world, object and array destructuring are powerful features that allow developers to extract data from arrays or objects into distinct variables. This is particularly useful when dealing with complex state objects or props in a React component.
+
+const vehicles = ['mustang', 'f-150', 'expedition'];
+
+const [car, truck, suv] = vehicles;
