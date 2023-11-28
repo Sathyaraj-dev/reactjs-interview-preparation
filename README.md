@@ -140,3 +140,18 @@ In the JavaScript and React world, object and array destructuring are powerful f
 >const vehicles = ['mustang', 'f-150', 'expedition'];
 
 >const [car, truck, suv] = vehicles;
+
+**How to iterate objects in react**
+
+
+To loop through an object in React:
+
+Use the Object.keys() method to get an array of the object's keys.
+
+If you need to loop through an object's values:
+
+Use the Object.values() method to get an array of the object's values.
+
+Loop through an Object's entries in React
+
+You can also use the Object.entries method which returns an array of key-value pair arrays.
