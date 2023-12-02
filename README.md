@@ -143,15 +143,16 @@ In the JavaScript and React world, object and array destructuring are powerful f
 
 **How to iterate objects in react**
 
-
-To loop through an object in React:
+<ul>
+<li>To loop through an object in React:
 
 Use the Object.keys() method to get an array of the object's keys.
-
+</li>
+<li>
 If you need to loop through an object's values:
 
-Use the Object.values() method to get an array of the object's values.
-
+Use the Object.values() method to get an array of the object's values.</li>
+<li>
 Loop through an Object's entries in React
-
-You can also use the Object.entries method which returns an array of key-value pair arrays.
+>
+You can also use the Object.entries method which returns an array of key-value pair arrays.</li></ul>
