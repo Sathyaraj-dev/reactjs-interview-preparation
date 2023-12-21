@@ -156,3 +156,8 @@ Use the Object.values() method to get an array of the object's values.</li>
 Loop through an Object's entries in React
 >
 You can also use the Object.entries method which returns an array of key-value pair arrays.</li></ul>
+
+**What is the significance of the render() method in React.js?**
+
+The render() method in React.js is responsible for returning the JSX that represents the structure and appearance of a component. It gets called whenever the
+component updates.
