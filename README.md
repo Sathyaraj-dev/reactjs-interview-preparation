@@ -157,23 +157,8 @@ Loop through an Object's entries in React
 >
 You can also use the Object.entries method which returns an array of key-value pair arrays.</li></ul>
 
-`{Object.entries(students).map(([key, value]) => {`
+<img width="647" alt="image" src="https://github.com/Sathyaraj-dev/reactjs-interview-preparation/assets/57762726/c9a2ed2a-ea71-4131-9f71-83415e0d14ad">
 
- `return (`
- 
-    `<div key={key}>`
-    
-    `  <h2>`
-    
-      `  {key}: {students[key]}`
-      
-     ` </h2>`
-     
-   ` </div>`
-   
- ` );`
- 
-`})}`
 
 **What is the significance of the render() method in React.js?**
 
