@@ -164,3 +164,8 @@ You can also use the Object.entries method which returns an array of key-value p
 
 The render() method in React.js is responsible for returning the JSX that represents the structure and appearance of a component. It gets called whenever the
 component updates.
+
+**ReactJS Error: An identifier or keyword cannot immediately follow a numeric literal for this response {reponseData?.5g_features.section_heading}**
+
+The property 5g_features starts with a digit, which causes the issue. To access a property that starts with a digit, you need to use bracket notation.
+{reponseData?.['5g_features'].section_heading}
