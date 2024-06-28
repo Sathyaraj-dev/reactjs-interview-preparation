@@ -171,3 +171,7 @@ For this response {reponseData?.5g_features.section_heading}
 
 The property 5g_features starts with a digit, which causes the issue. To access a property that starts with a digit, you need to use bracket notation.
 {reponseData?.['5g_features'].section_heading}
+
+**When should you use useState vs. useReducer in React?**
+
+Use `useState` for simple state logic and `useReducer` for complex state logic that involves multiple sub-values or when the next state depends on the previous one.
