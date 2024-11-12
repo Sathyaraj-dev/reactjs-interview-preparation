@@ -175,3 +175,13 @@ The property 5g_features starts with a digit, which causes the issue. To access 
 **When should you use useState vs. useReducer in React?**
 
 Use `useState` for simple state logic and `useReducer` for complex state logic that involves multiple sub-values or when the next state depends on the previous one.
+
+**𝐎𝐩𝐭𝐢𝐦𝐢𝐳𝐢𝐧𝐠 𝐀𝐏𝐈 𝐂𝐚𝐥𝐥𝐬 𝐢𝐧 𝐑𝐞𝐚𝐜𝐭 𝐰𝐢𝐭𝐡 𝐓𝐡𝐫𝐨𝐭𝐭𝐥𝐢𝐧𝐠! ⚡**
+
+When your React app needs to handle rapid user inputs (like search queries), throttling can help reduce the frequency of API calls and improve performance.
+
+𝐁𝐞𝐧𝐞𝐟𝐢𝐭𝐬 𝐨𝐟 𝐓𝐡𝐫𝐨𝐭𝐭𝐥𝐢𝐧𝐠:
+- Reduces the number of API requests, saving bandwidth and improving load times.
+- Enhances user experience, especially for apps with heavy data fetching.
+
+Keep your API calls efficient and your app responsive! 
