@@ -185,3 +185,13 @@ When your React app needs to handle rapid user inputs (like search queries), thr
 - Enhances user experience, especially for apps with heavy data fetching.
 
 Keep your API calls efficient and your app responsive! 
+
+**What Do the Caret (^) and Tilde (~) Symbols Mean in package.json? **
+
+Caret (^): Updates minor and patch versions.
+Example: "react": "^17.0.0" upgrades to 17.0.1 or 17.1.0, but not 18.0.0.
+Ideal for new features and fixes without breaking changes.
+Tilde (~): Updates patch versions only.
+Example: "react": "~17.0.0" upgrades to 17.0.1, but not 17.1.0.
+Best for bug fixes while avoiding new features.
+Why it matters: These symbols keep your app stable while allowing safe updates.
