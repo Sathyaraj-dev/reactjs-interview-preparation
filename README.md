@@ -7,6 +7,15 @@
 🚀React Fiber is used to increase React's suitability for areas like animation, layout, and gestures. Its headline feature is incremental rendering: the ability to split rendering work into chunks and spread it out over multiple frames.
 Basically, react fiber is an architecture that splits the work and updates the only component that needs to change.
 
+**Why are there two external libraries for React?**
+<script src="https://unpkg.com/supersimpledev/react.js"></script>
+<script src="https://unpkg.com/supersimpledev/react-dom.js"></script>
+
+Using React to create websites:
+= load React & ReactDOM
+
+Using React to create mobile apps:
+= load React & ReactNative
 
 **React Components styling**
 
